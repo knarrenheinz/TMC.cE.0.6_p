@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="TMC7_data" version="1.3.0" audacityversion="2.2.2" sel0="2018.5943674708" sel1="2032.6844612208" vpos="0" h="2002.0000994630" zoom="16.1228763219" rate="32000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="TMC7_data" version="1.3.0" audacityversion="2.2.2" sel0="2027.5038053962" sel1="2027.5038053962" vpos="0" h="2001.7726622271" zoom="27.2043879046" rate="32000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags>
 		<tag name="TITLE" value="Raw_ncr"/>
 		<tag name="TRACKNUMBER" value="1"/>
@@ -860,7 +860,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Lvl" channel="2" linked="0" mute="0" solo="1" height="150" minimized="0" isSelected="1" rate="32000" gain="1.0" pan="0.0" colorindex="0">
+	<wavetrack name="Lvl" channel="2" linked="0" mute="0" solo="1" height="150" minimized="0" isSelected="0" rate="32000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="11604">
 				<waveblock start="0">
@@ -2122,95 +2122,95 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<labeltrack name="Label Track" numlabels="101" height="170" minimized="0" isSelected="1">
-		<label t="0.3626250000" t1="3.4003437500" title="Q1"/>
+	<labeltrack name="Label Track" numlabels="102" height="170" minimized="0" isSelected="1">
+		<label t="0.3626250000" t1="3.4003437500" title="Q1; 0-0:3 secs"/>
 		<label t="0.3626250000" t1="0.3626250000" title="Starts here"/>
-		<label t="3.4003437500" t1="144.6440000000" title="A!"/>
-		<label t="144.6440000000" t1="157.5026562500" title="Q2"/>
+		<label t="3.4003437500" t1="144.6440000000" title="A1"/>
+		<label t="144.6440000000" t1="157.5026562500" title="Q2; 2:24-2:37"/>
 		<label t="156.5483279267" t1="156.7479742689" title="lag"/>
 		<label t="157.5026562500" t1="221.4723125000" title="A2"/>
 		<label t="221.4723125000" t1="235.8948750000" title="dip in quality or the audio sounds kinda muffled"/>
-		<label t="221.4723125000" t1="235.8948750000" title="Q3"/>
+		<label t="221.4723125000" t1="235.8948750000" title="Q3; 3:41-3:55"/>
 		<label t="235.8948750000" t1="310.7997812500" title="A3"/>
 		<label t="309.8785764389" t1="310.7019183723" title="Is the audio cut here because i cant understand what se said in the end"/>
-		<label t="310.7997812500" t1="359.5578437500" title="Q4"/>
+		<label t="310.7997812500" t1="359.5578437500" title="Q4; 5:10-5:59"/>
 		<label t="321.5008323520" t1="321.6449707602" title="lag"/>
 		<label t="359.5578437500" t1="392.1645000000" title="A4"/>
-		<label t="392.1645000000" t1="402.3669687500" title="Q5"/>
+		<label t="392.1645000000" t1="402.3669687500" title="Q5; 6:32 - 6:42"/>
 		<label t="402.4305931353" t1="446.1852812500" title="A5"/>
 		<label t="410.9744639292" t1="411.2626909661" title=""/>
 		<label t="427.3815625000" t1="430.0109062500" title="lottie comments"/>
 		<label t="428.8530321465" t1="430.0108991500" title="sample of birds"/>
-		<label t="446.1852812500" t1="457.3577500000" title="Q6"/>
+		<label t="446.1852812500" t1="457.3577500000" title="Q6; 7:26-7:37"/>
 		<label t="457.3577500000" t1="531.3841250000" title="A6"/>
 		<label t="469.7223370315" t1="473.8795241615" title="Noise; can probably be removed, will try out later in round 2"/>
 		<label t="503.3617440469" t1="503.7836843584" title="one thing to note the guest uses &quot;yea or yes&quot; a lot"/>
 		<label t="529.8894381842" t1="531.3841131131" title="Refer to my last marker about yea; we can probably remove this."/>
-		<label t="531.3841250000" t1="535.5142500000" title="Q7"/>
+		<label t="531.3841250000" t1="535.5142500000" title="Q7; 8:51-8:55"/>
 		<label t="535.5142500000" t1="573.8761875000" title="A7"/>
 		<label t="564.7761093456" t1="565.0097665213" title="Notification sound, will take care of it in round 2"/>
 		<label t="570.5802812500" t1="575.4159375000" title="removable"/>
-		<label t="573.8761875000" t1="588.6518125000" title="Q8"/>
+		<label t="573.8761875000" t1="588.6518125000" title="Q8; 9:33 - 9:48"/>
 		<label t="582.0271965887" t1="582.3430028247" title="lag"/>
 		<label t="588.6518125000" t1="629.3207500000" title="A8"/>
-		<label t="629.3207500000" t1="631.7985625000" title="Q9"/>
+		<label t="629.3207500000" t1="631.7985625000" title="Q9; 10:29-10:31"/>
 		<label t="631.7985625000" t1="684.5380625000" title="A9"/>
 		<label t="674.5883862226" t1="674.9872275819" title=""/>
-		<label t="684.5380625000" t1="697.1991250000" title="Q10"/>
+		<label t="684.5380625000" t1="697.1991250000" title="Q10; 11:24-11:37"/>
 		<label t="694.6356219552" t1="695.0497815447" title="lag"/>
 		<label t="697.1991250000" t1="756.5551875000" title="A10"/>
 		<label t="721.6639230098" t1="725.4943761692" title="traffic noise"/>
-		<label t="756.5551875000" t1="792.0630625000" title="Q11"/>
+		<label t="756.5551875000" t1="792.0630625000" title="Q11; 12:36-13:12"/>
 		<label t="779.9228158658" t1="780.1802720877" title="lag"/>
 		<label t="785.3710595468" t1="787.0412014817" title="lag"/>
 		<label t="792.0630625000" t1="901.4047187500" title="A11"/>
-		<label t="901.4047187500" t1="921.0681562500" title="Q12"/>
+		<label t="901.4047187500" t1="921.0681562500" title="Q12; 15:01-15:21"/>
 		<label t="921.0681562500" t1="970.6690549708" title="A12"/>
-		<label t="970.6690549708" t1="975.2212737208" title="Q13"/>
+		<label t="970.6690549708" t1="975.2212737208" title="Q13; 16:10-16:15"/>
 		<label t="975.2212737208" t1="1003.8167424708" title="A13"/>
 		<label t="978.8377695953" t1="979.4173750404" title="mild lag"/>
-		<label t="1003.8167424708" t1="1035.2764924708" title="Q14; there is some rustling noise while she speaks"/>
+		<label t="1003.8167424708" t1="1035.2764924708" title="Q14; there is some rustling noise while she speaks; 16:43-17:15"/>
 		<label t="1062.2364299708" t1="1078.5498644633" title="this whole bit is removable and we can actualy start the ansswer from the next bit"/>
 		<label t="1067.4027056939" t1="1077.0983245025" title="lag"/>
 		<label t="1078.5498674708" t1="1183.2766487208" title="A14"/>
 		<label t="1114.2443613691" t1="1114.5399348696" title="Some noise might be removable like the notifs, will look into in round 2"/>
-		<label t="1183.2766487208" t1="1188.9869924708" title="Q15"/>
+		<label t="1183.2766487208" t1="1188.9869924708" title="Q15; 19:43-19:48"/>
 		<label t="1188.9869924708" t1="1226.1197424708" title="A15"/>
 		<label t="1217.3028259898" t1="1217.8469556043" title="Some notif sound, will try to take care pf it in round 2"/>
-		<label t="1226.1197424708" t1="1230.1908674708" title="Q16"/>
+		<label t="1226.1197424708" t1="1230.1908674708" title="Q16; 20:26-20:30"/>
 		<label t="1230.1908674708" t1="1243.7106487208" title="A16"/>
 		<label t="1239.4786977760" t1="1240.9418778928" title="lag"/>
-		<label t="1243.7106487208" t1="1261.4893362208" title="Q17"/>
+		<label t="1243.7106487208" t1="1261.4893362208" title="Q17; 20:43-21:01"/>
 		<label t="1261.4893362208" t1="1325.3243674708" title="A17"/>
-		<label t="1325.3243674708" t1="1340.0430549708" title="Q17"/>
+		<label t="1325.3243674708" t1="1340.0430549708" title="Q17; 22:05-22:20"/>
 		<label t="1334.3227855021" t1="1339.7830388775" title="lag"/>
 		<label t="1340.0430549708" t1="1367.9782112208" title="A17"/>
-		<label t="1367.9782112208" t1="1387.5887424708" title="Q18"/>
+		<label t="1367.9782112208" t1="1387.5887424708" title="Q18; 22:47-23:07"/>
 		<label t="1382.4437618467" t1="1383.7369509660" title="drop off ??"/>
 		<label t="1386.0720675858" t1="1386.6722527669" title="same as last comment"/>
 		<label t="1387.5887424708" t1="1407.8213987208" title="A18"/>
-		<label t="1407.8213987208" t1="1429.5493987208" title="Q19"/>
+		<label t="1407.8213987208" t1="1429.5493987208" title="Q19; 23:27-23:49"/>
 		<label t="1424.2043890455" t1="1426.0076128611" title="lag/dropoff"/>
 		<label t="1429.5493987208" t1="1473.3948362208" title="A19"/>
 		<label t="1469.5312328729" t1="1469.7536715707" title="lag"/>
-		<label t="1473.3948362208" t1="1485.8797737208" title="Q20"/>
+		<label t="1473.3948362208" t1="1485.8797737208" title="Q20; 24:33-24:45"/>
 		<label t="1485.8797737208" t1="1538.9338987208" title="A20"/>
-		<label t="1538.9338987208" t1="1552.2045237208" title="Q21"/>
+		<label t="1538.9338987208" t1="1552.2045237208" title="Q21; 25:38-25:52"/>
 		<label t="1539.1906549982" t1="1540.2652008282" title="drop off"/>
 		<label t="1552.2045237208" t1="1598.6942424708" title="A21"/>
-		<label t="1598.6942424708" t1="1647.7849924708" title="Q22"/>
+		<label t="1598.6942424708" t1="1647.7849924708" title="Q22; 26:38-27:27"/>
 		<label t="1610.0643873062" t1="1611.7318828383" title="drop off"/>
 		<label t="1642.3976866051" t1="1643.1649762466" title="sample of birds, silence if not used"/>
 		<label t="1647.7849924708" t1="1715.5992424708" title="A21"/>
-		<label t="1715.5992424708" t1="1761.0961799708" title="Q22"/>
+		<label t="1715.5992424708" t1="1761.0961799708" title="Q22; 28:35-29:21"/>
 		<label t="1730.9229285224" t1="1731.9209557600" title="mild lag"/>
 		<label t="1734.4299508464" t1="1735.5540548004" title="lag"/>
 		<label t="1761.0961799708" t1="1792.1568362208" title="A22"/>
 		<label t="1775.6175032639" t1="1779.7295557756" title="bg noise"/>
-		<label t="1792.1568362208" t1="1800.2125862208" title="Q23"/>
+		<label t="1792.1568362208" t1="1800.2125862208" title="Q23; 29:52-30:00"/>
 		<label t="1800.2125862208" t1="1823.4969612208" title="A23"/>
 		<label t="1823.4969612208" t1="1833.6322604104" title="low quality drop off + noise"/>
-		<label t="1840.6468049708" t1="1859.9052737208" title="Q24"/>
+		<label t="1840.6468049708" t1="1859.9052737208" title="Q24; 30:40-30:59"/>
 		<label t="1859.9052737208" t1="1961.8871487208" title="A24"/>
 		<label t="1859.9052737208" t1="1906.4371174708" title="removable, start the answer after this ?"/>
 		<label t="1859.9052737208" t1="1871.5296174708" title="removable ?"/>
@@ -2219,10 +2219,11 @@
 		<label t="1902.6122378875" t1="1902.9979559575" title="cut off"/>
 		<label t="1966.4024621153" t1="1972.6787510509" title="removable"/>
 		<label t="1969.5266464125" t1="1972.6787510509" title="she&apos;s aware about the lag in the recording it self"/>
-		<label t="1972.6787424708" t1="1978.3120549708" title="Q25"/>
+		<label t="1972.6787424708" t1="1978.3120549708" title="Q25; 32:52-32:58"/>
 		<label t="1978.3120549708" t1="1999.6971487208" title="A25"/>
+		<label t="1999.6971487200" t1="2018.5943674700" title="33:19-33:38"/>
 		<label t="2001.6290963091" t1="2004.5575123210" title="lag/drop off"/>
-		<label t="2018.5943674708" t1="2032.6844612208" title="outro remarks"/>
+		<label t="2018.5943674708" t1="2032.6844612208" title="outro remarks; 33:38-33:52"/>
 		<label t="2028.7689282731" t1="2029.8451243184" title="lag"/>
 	</labeltrack>
 </project>
